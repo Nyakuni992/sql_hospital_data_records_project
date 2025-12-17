@@ -100,6 +100,6 @@ Hello! My name is **Aramiru Nyakuni Rebecca**. I am a professional accountant tr
 
 I'd love to keep in touch! Connect with me on these platforms:
 
-[![LinkedIn](https://www.linkedin.com/in/rebecca-aramiru-3a699a12b/)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rebecca-aramiru-3a699a12b/)
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)]
 

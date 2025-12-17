@@ -1,4 +1,5 @@
 Welcome to the **hospital_data_records_project** repository⚕️
+
 This project illustrates an in-depth data warehousing and analytics solution, from building a data warehouse to generating operational insights. This project is designed as a portfolio project and It showcases industry best practices in data engineering and analytics.
 
 ## 🔷 Data Architecture

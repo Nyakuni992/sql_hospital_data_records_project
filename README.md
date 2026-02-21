@@ -5,7 +5,8 @@ This project illustrates an in-depth data warehousing and analytics solution, fr
 ## 🔷 Data Architecture
 
 This project adopts the Medallion Architecture **Bronze**, **Silver**, and **Gold** layers for it's data design :
-![Data Architecture](docs/data_architecture.png)
+![Data Architecture](sql_hospital_data_records_project/doc
+/Data Architecture.png)
 
 1. **Bronze Layer**: This layer stores raw data exactly as received from source systems, ingested from CSV files into the SQL Server Database.
 2. **Silver Layer**: “In this layer data is cleansed, standardized, and normalized to ensure analytical readiness.”

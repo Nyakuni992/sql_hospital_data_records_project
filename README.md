@@ -71,7 +71,7 @@ Hopital-data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (CSV)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Illustrates the various ETL techniques & processes used in the project
+│   ├── etl.drawio                      # Illustrates the various ETL techniques & processes used.
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram

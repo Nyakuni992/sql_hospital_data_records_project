@@ -1,10 +1,10 @@
 # Hospital Data Warehouse & Analytics Project
 
-# ☄️ Welcome to the Hospital Data Warehouse & Analytics Project repository.
+## ☄️ Welcome to the Hospital Data Warehouse & Analytics Project repository.
 This project presents a comprehensive end-to-end data warehousing and analytics solution — from designing and developing the data warehouse to delivering meaningful, actionable insights. Developed as a portfolio project, it demonstrates industry best practices in data engineering, data modeling, and analytics.
 
 ---
-## 🏙️Data Architecture
+### 🏙️Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Architecture.png)
@@ -14,7 +14,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
-## 📖 Project Overview
+### 📖 Project Overview
 
 This project involves:
 
@@ -24,7 +24,7 @@ This project involves:
 4. **Analytics & Reporting**: Developing SQL-driven reports and dashboards that transform data into clear, actionable insights.
 ---
 
-## 🛠️ Important Links & Tools:
+### 🛠️ Important Links & Tools:
 
 Everything is for Free!
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
@@ -37,29 +37,29 @@ Everything is for Free!
 
 ---
 
-## 🚀 Project Requirements
-## Building the Data Warehouse (Data Engineering)
+### 🚀 Project Requirements
+#### Building the Data Warehouse (Data Engineering)
 
-## Objective:
+#### Objective:
 Design and implement a modern data warehouse using SQL Server to consolidate hospital encounter data, enabling analytical reporting and data-driven decision-making.
 
-## Specifications:
--- **Data Sources**: Ingest structured data provided as CSV files into a staging layer.                  
--- **Data Quality**: Perform data cleansing, validation, and transformation to resolve inconsistencies and ensure integrity.
--- **Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
--- **Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
--- **Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
+#### Specifications:
+- **Data Sources**: Ingest structured data provided as CSV files into a staging layer.                  
+- **Data Quality**: Perform data cleansing, validation, and transformation to resolve inconsistencies and ensure integrity.
+- **Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
+-  **Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
+- **Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
 ---
 
 
-## 📊BI: Analytics & Reporting (Data Analysis)
+### 📊BI: Analytics & Reporting (Data Analysis)
 
-## Objective:
+#### Objective:
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
--- **Encounters Overview**: Volume trends, readmissions, and utilization metrics.
--- **Cost & Coverage Insights**: Treatment costs, payer coverage distribution, and financial responsibility analysis.
--- **Patient Behavioral Analysis**: Visit patterns, Demographic distribution (age, gender, location), and service utilization behavior.
--- **Financial Performance**: Revenue performance, contribution analysis, and key financial indicators.
+- **Encounters Overview**: Volume trends, readmissions, and utilization metrics.
+- **Cost & Coverage Insights**: Treatment costs, payer coverage distribution, and financial responsibility analysis.
+- **Patient Behavioral Analysis**: Visit patterns, Demographic distribution (age, gender, location), and service utilization behavior.
+- **Financial Performance**: Revenue performance, contribution analysis, and key financial indicators.
 
 These KPIs provide stakeholders with measurable performance indicators that support strategic planning, operational improvements, and financial decision-making.
 For more details, refer to [docs/requirements.md](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc).

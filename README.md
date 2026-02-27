@@ -46,6 +46,7 @@ Build a contemporary hospital data warehouse with SQL Server to consolidate pati
 - **Data Sources**: Import data from the hospital-patient records provided as CSV files.
 - **Data Quality**: Cleanse and resolve any data quality issues before analysis.
 - **Integration**: Combine related data sources into a single, user-friendly data model designed for analytical queries.
+-  **Scope**: Excludes encounters occurring after a recorded patient death date for all analytical KPIs to maintain logical and clinical consistency.
 - **Documentation**: "Provide thorough documentation of the data model to assist stakeholders,hospital administrators and analytics teams.
 ---
 

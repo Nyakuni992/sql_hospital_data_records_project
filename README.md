@@ -62,16 +62,16 @@ Design and implement SQL-driven analytical reporting to measure and monitor key 
 - **Financial Performance**: Revenue performance, contribution analysis, and key financial indicators.
 
 These KPIs provide stakeholders with measurable performance indicators that support strategic planning, operational improvements, and financial decision-making.
-For more details, refer to [docs/requirements.md](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc).
+For more details, refer to [docs](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc).
 
 ## 📂 Repository Structure
 ```
-data-warehouse-project/
+Hopital-data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (CSV)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── etl.drawio                      # ETL workflow diagram illustrating extraction, transformation, and loading                                                  processes       
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
@@ -83,12 +83,12 @@ data-warehouse-project/
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/                              # Test scripts and quality files
+├── tests/                              # Data validation & integrity checks
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+└── gitignore                          # Files and directories to be ignored by Git
+
 ```
 ---
 
@@ -96,12 +96,14 @@ data-warehouse-project/
 ## 🛡️ License
 
 This project is licensed under the [MIT License](LICENSE). allowing you to freely use, modify, and share it, provided proper attribution is given.
+
 ## 🌟 About Me
 
 **Hello!** I’m **Aramiru Nyakuni Rebecca**, a professional accountant transitioning into the field of data analysis. I am dedicated to honing my skills and expertise in data analytics while leveraging data-driven insights and predictive analysis to help organizations achieve their long-term objectives.
 
 ## 🤝 Connect With Me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Canva-00C4CC?logo=canva&logoColor=white)](https://rebekaharamiru.my.canva.site/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rebecca-aramiru-3a699a12b/)
 [![Gmail](https://img.shields.io/badge/Email-Gmail-red?logo=gmail&logoColor=white)](mailto:nyanetah@gmail.com)
-[![Website](https://rebekaharamiru.my.canva.site/)
+

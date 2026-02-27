@@ -1,7 +1,7 @@
-# Hospital data Records and Analytics Project
+# Hospital Data Warehouse & Analytics Project
 
-☄️ Welcome to the **Data Warehouse and Analytics Project** repository!   
-This project showcases a complete end-to-end data warehousing and analytics solution — from designing and building the data warehouse to delivering meaningful, actionable insights. Created as a portfolio project, it reflects industry best practices in both data engineering and data analytics.
+# ☄️ Welcome to the Hospital Data Warehouse & Analytics Project repository.
+This project presents a comprehensive end-to-end data warehousing and analytics solution — from designing and developing the data warehouse to delivering meaningful, actionable insights. Developed as a portfolio project, it demonstrates industry best practices in data engineering, data modeling, and analytics.
 
 ---
 ## 🏙️Data Architecture

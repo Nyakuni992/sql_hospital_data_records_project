@@ -44,11 +44,11 @@ Everything is for Free!
 Design and implement a modern data warehouse using SQL Server to consolidate hospital encounter data, enabling analytical reporting and data-driven decision-making.
 
 ## Specifications:
---**Data Sources**: Ingest structured data provided as CSV files into a staging layer.                  
---**Data Quality**: Perform data cleansing, validation, and transformation to resolve inconsistencies and ensure integrity.
---**Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
---**Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
---**Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
+-- **Data Sources**: Ingest structured data provided as CSV files into a staging layer.                  
+-- **Data Quality**: Perform data cleansing, validation, and transformation to resolve inconsistencies and ensure integrity.
+-- **Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
+-- **Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
+-- **Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
 ---
 
 
@@ -56,10 +56,10 @@ Design and implement a modern data warehouse using SQL Server to consolidate hos
 
 ## Objective:
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
---**Encounters Overview**: Volume trends, readmissions, and utilization metrics.
---**Cost & Coverage Insights**: Treatment costs, payer coverage distribution, and financial responsibility analysis.
---**Patient Behavioral Analysis**: Visit patterns, Demographic distribution (age, gender, location), and service utilization behavior.
---**Financial Performance**: Revenue performance, contribution analysis, and key financial indicators.
+-- **Encounters Overview**: Volume trends, readmissions, and utilization metrics.
+-- **Cost & Coverage Insights**: Treatment costs, payer coverage distribution, and financial responsibility analysis.
+-- **Patient Behavioral Analysis**: Visit patterns, Demographic distribution (age, gender, location), and service utilization behavior.
+-- **Financial Performance**: Revenue performance, contribution analysis, and key financial indicators.
 
 These KPIs provide stakeholders with measurable performance indicators that support strategic planning, operational improvements, and financial decision-making.
 For more details, refer to [docs/requirements.md](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc).

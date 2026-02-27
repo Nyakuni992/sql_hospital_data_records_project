@@ -103,5 +103,5 @@ This project is licensed under the [MIT License](LICENSE). allowing you to freel
 ## 🤝 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rebecca-aramiru-3a699a12b/)
-[![Gmail](https://img.shields.io/badge/Email-Contact-red?logo=gmail&logoColor=white)](mailto:nyanetah@gmail.com)
+[![Gmail](https://img.shields.io/badge/Email-Gmail-red?logo=gmail&logoColor=white)](mailto:nyc@gmail.com)(mailto:nyanetah@gmail.com)
 [![Website](https://rebekaharamiru.my.canva.site/)

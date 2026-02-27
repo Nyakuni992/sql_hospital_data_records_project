@@ -99,12 +99,9 @@ data-warehouse-project/
 This project is licensed under the [MIT License](LICENSE). allowing you to freely use, modify, and share it, provided proper attribution is given.
 ## 🌟 About Me
 
-Hello! I’m Aramiru Nyakuni Rebecca, a professional accountant transitioning into the field of data analysis. I am dedicated to honing my skills and expertise in data analytics while leveraging data-driven insights and predictive analysis to help organizations achieve their long-term objectives.
+**Hello!** I’m **Aramiru Nyakuni Rebecca**, a professional accountant transitioning into the field of data analysis. I am dedicated to honing my skills and expertise in data analytics while leveraging data-driven insights and predictive analysis to help organizations achieve their long-term objectives.
 Let’s stay connected! You can reach out and connect with me on the following platforms:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/baraa-khatib-salkini)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.datawithbaraa.com)
-[![Newsletter](https://img.shields.io/badge/Newsletter-FF5722?style=for-the-badge&logo=substack&logoColor=white)](https://bit.ly/BaraaNewsletter)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/baraasalkini)
-[![Join](https://img.shields.io/badge/Join-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@datawithbaraa)
-e.
+[![Email](nyanetah@gmail.com)
+[![LinkedIn](https://www.linkedin.com/in/rebecca-aramiru-3a699a12b/)
+[![Website](https://rebekaharamiru.my.canva.site/)

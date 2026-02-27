@@ -50,31 +50,37 @@ BEGIN
 			Total_claim_cost,
 			Payer_coverage,
 			Reason_code,
-			Reason_description
+			Reason_description,
+			Encounter_after_death_flag
 		)
-		SELECT 
-			Id ,
-			CAST([Start] AS datetime) as Start,
-			CAST([Stop] AS datetime) as Stop,
-			Patient,
-			Organization,
-			Payer,
-			CASE WHEN UPPER(TRIM(Encounter_Class)) = 'ambulatory' THEN 'Ambulatory'
-				   WHEN UPPER(TRIM(Encounter_Class)) = 'urgentcare' THEN 'Urgentcare'
-				   WHEN UPPER(TRIM(Encounter_Class)) = 'emergency' THEN 'Emergency'
-				   WHEN UPPER(TRIM(Encounter_Class)) = 'inpatient' THEN 'Inpatient'
-				   WHEN UPPER(TRIM(Encounter_Class)) = 'outpatient' THEN 'Outpatient'
-				   WHEN UPPER(TRIM(Encounter_Class)) = 'wellness' THEN 'Wellness'
-				   ELSE 'n/a'
-			END Encounter_class,
-			Code,
-			Description,
-			Base_Encounter_cost,
-			Total_claim_cost,
-			Payer_coverage,
-			Reason_code,
-			Reason_description
-			FROM bronze.encounters
+		   SELECT 
+	e.Id ,
+	CAST([Start] AS datetime) as Start,
+	CAST([Stop] AS datetime) as Stop,
+	e.Patient,
+	e.Organization,
+	e.Payer,
+	CASE WHEN UPPER(TRIM(Encounter_Class)) = 'ambulatory' THEN 'Ambulatory'
+		   WHEN UPPER(TRIM(Encounter_Class)) = 'urgentcare' THEN 'Urgentcare'
+		   WHEN UPPER(TRIM(Encounter_Class)) = 'emergency' THEN 'Emergency'
+		   WHEN UPPER(TRIM(Encounter_Class)) = 'inpatient' THEN 'Inpatient'
+		   WHEN UPPER(TRIM(Encounter_Class)) = 'outpatient' THEN 'Outpatient'
+		   WHEN UPPER(TRIM(Encounter_Class)) = 'wellness' THEN 'Wellness'
+		   ELSE 'n/a'
+	END Encounter_class,
+	e.Code,
+	e.Description,
+	e.Base_Encounter_cost,
+	e.Total_claim_cost,
+	e.Payer_coverage,
+	e.Reason_code,
+	e.Reason_description,
+	CASE WHEN p.Deathdate IS NOT NULL AND e.Start > p.Deathdate THEN 1 
+	     ELSE 0
+		 END as Encounter_after_death_flag
+	FROM bronze.encounters e
+	LEFT JOIN bronze.patients p    
+	ON e.Patient = p.Id
 		SET @end_time = GETDATE();
         PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
         PRINT '>> -------------';

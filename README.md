@@ -1,24 +1,110 @@
-# SQL Hospital Data Records Project
+# Hospital data Records and Analytics Project
 
-This project contains SQL scripts and datasets used for hospital data analysis.
+☄️ Welcome to the **Data Warehouse and Analytics Project** repository!   
+This project showcases a complete end-to-end data warehousing and analytics solution — from designing and building the data warehouse to delivering meaningful, actionable insights. Created as a portfolio project, it reflects industry best practices in both data engineering and data analytics.
 
-## Getting Started
+---
+## 🏙️Data Architecture
 
-To get started with this project, clone the repository and navigate to the `datasets` folder.
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_architecture.png)
 
-## Datasets
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-The datasets are located in the `datasets` folder, where you can find various data files used for analysis.
+---
+## 📖 Project Overview
 
-1. Patients
-2. Treatments
-3. Outcomes
-4. Records
+This project involves:
 
-## Contributing
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Developing SQL-driven reports and dashboards that transform data into clear, actionable insights.
+---
 
-If you're interested in contributing to this project, please open an issue or submit a pull request.
+## 🛠️ Important Links & Tools:
 
-## License
+Everything is for Free!
+- **[Datasets](datasets/):** Access to the project dataset (csv files).
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
+- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
+- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
+- **[Notion Project Steps](https://www.notion.so/Hospital-Records-Project-2cb3700e152f806d9b0ad71b35d548ac):** Access to All Project Phases and Tasks.
 
-This project is licensed under the MIT License.
+---
+
+## 🚀 Project Requirements
+
+### Building the Data Warehouse (Data Engineering)
+
+#### Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+#### Specifications
+- **Data Sources**: Import data from one source provided as CSV files.
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Scope**: Excludes encounters occurring after a recorded patient death date to ensure all analytical KPIs maintain logical and clinical consistency.
+- **Documentation**: Deliver a comprehensive and well-structured documentation of the data model to effectively support both business stakeholders and analytics teams.
+---
+
+### BI: Analytics & Reporting (Data Analysis)
+
+#### Objective
+Develop SQL-based analytics to deliver detailed insights into:
+- **Encounters Overview**
+- **Cost and Coverage Insights**
+- **Patient's Behavioural Analysis**
+- **Revenue Analysis**
+
+These insights equip stakeholders with essential business metrics, facilitating informed and strategic decision-making.
+
+For more details, refer to [docs/requirements.md](docs/requirements.md).
+
+## 📂 Repository Structure
+```
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+```
+---
+
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). allowing you to freely use, modify, and share it, provided proper attribution is given.
+## 🌟 About Me
+
+Hello! I’m Aramiru Nyakuni Rebecca, a professional accountant transitioning into the field of data analysis. I am dedicated to honing my skills and expertise in data analytics while leveraging data-driven insights and predictive analysis to help organizations achieve their long-term objectives.
+Let’s stay connected! You can reach out and connect with me on the following platforms:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/baraa-khatib-salkini)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.datawithbaraa.com)
+[![Newsletter](https://img.shields.io/badge/Newsletter-FF5722?style=for-the-badge&logo=substack&logoColor=white)](https://bit.ly/BaraaNewsletter)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/baraasalkini)
+[![Join](https://img.shields.io/badge/Join-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@datawithbaraa)
+e.

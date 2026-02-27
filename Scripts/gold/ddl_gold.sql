@@ -70,7 +70,8 @@ IF OBJECT_ID('gold.dim_organizations', 'V') IS NOT NULL
 GO
 
 CREATE VIEW gold.dim_organizations AS
-SELECT
+
+    SELECT
     ROW_NUMBER() OVER (ORDER BY  Id) AS Organization_key,
     Id                               AS Organization_id,
     Name,
@@ -87,24 +88,33 @@ FROM silver.organizations;
 IF OBJECT_ID('gold.fact_encounters', 'V') IS NOT NULL
     DROP VIEW gold.fact_encounters;
 GO
-
 CREATE VIEW gold.fact_encounters AS
-SELECT
-  Id                             AS Encounter_id,
-  Patient_key,
-  Organization_key,
-  Payer_key,
-  Start                          AS Start_time,
-  Stop                           AS End_time,
-  Encounter_class,
-  Code                           AS Encounter_code,
-  Description                    AS Encounter_code_description,
-  Reason_code                    AS Encounter_reason_code,
-  Reason_description             AS Reason_code_description,
-  Base_encounter_cost,
-  Total_claim_cost,
-  Payer_coverage
-FROM silver.encounters 
+
+    SELECT
+  e.Id                             AS Encounter_id,
+  p.Patient_key,
+  o.Organization_key,
+  py.Payer_key,
+  e.Start                          AS Start_time,
+  e.Stop                           AS End_time,
+  e.Encounter_class,
+  e.Code                           AS Encounter_code,
+  e.Description                    AS Encounter_code_description,
+  e.Reason_code                    AS Encounter_reason_code,
+  e.Reason_description             AS Reason_code_description,
+  e.Base_encounter_cost,
+  e.Total_claim_cost,
+  e.Payer_coverage
+FROM silver.encounters e
+LEFT JOIN gold.dim_patients p
+ON e.Patient = p.Patient_id
+LEFT JOIN gold.dim_organizations o
+ON e.Organization = o.Organization_id
+LEFT JOIN gold.dim_payers py
+ON e.Payer = py.Payer_id
+WHERE Encounter_after_death_flag = 0 OR Encounter_after_death_flag IS NULL
+
+ 
 
 -- =============================================================================
 -- Create Fact : gold.fact_procedures
@@ -112,15 +122,18 @@ FROM silver.encounters
 IF OBJECT_ID('gold.fact_procedures', 'V') IS NOT NULL
     DROP VIEW gold.fact_procedures;
 GO
-
 CREATE VIEW gold.fact_procedures AS
-SELECT
-    Encounter                    AS Encounter_id,
-    Patient_key,
-    Start                        AS Start_time,
-    Stop                         AS End_time,
-    Code                         AS Procedure_code,
-    Description                  AS Procedure_code_description,
-    Reason_code                  AS Procedure_reason_code,
-    Reason_description           AS Reason_code_description,
-    Base_cost
+
+    SELECT
+    pr.Encounter                    AS Encounter_id,
+    p.Patient_key,
+    pr.Start                        AS Start_time,
+    pr.Stop                         AS End_time,
+    pr.Code                         AS Procedure_code,
+    pr.Description                  AS Procedure_code_description,
+    pr.Reason_code                  AS Procedure_reason_code,
+    pr.Reason_description           AS Reason_code_description,
+    pr.Base_cost
+    FROM silver.procedures pr
+LEFT JOIN gold.dim_patients p
+ON p.Patient_id = pr.Patient 

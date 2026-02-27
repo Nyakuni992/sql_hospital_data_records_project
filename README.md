@@ -38,13 +38,13 @@ Everything is for Free!
 ---
 
 ## 🚀 Project Requirements
-### Building the Data Warehouse (Data Engineering)
+## Building the Data Warehouse (Data Engineering)
 
-#### Objective
+## Objective:
 Design and implement a modern data warehouse using SQL Server to consolidate hospital encounter data, enabling analytical reporting and data-driven decision-making.
 
-#### Specifications
---**Data Sources**: Ingest structured data provided as CSV files into a staging layer.
+## Specifications:
+--**Data Sources**: Ingest structured data provided as CSV files into a staging layer.                  
 --**Data Quality**: Perform data cleansing, validation, and transformation to resolve inconsistencies and ensure integrity.
 --**Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
 --**Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
@@ -52,9 +52,9 @@ Design and implement a modern data warehouse using SQL Server to consolidate hos
 ---
 
 
-###📊 BI: Analytics & Reporting (Data Analysis)
-Objective
+## 📊BI: Analytics & Reporting (Data Analysis)
 
+## Objective:
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
 --**Encounters Overview**: Volume trends, readmissions, and utilization metrics.
 --**Cost & Coverage Insights**: Treatment costs, payer coverage distribution, and financial responsibility analysis.

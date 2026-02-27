@@ -68,7 +68,7 @@ For more details, refer to [docs/requirements.md](https://github.com/Nyakuni992/
 ```
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw datasets used for the project (CSV)
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
@@ -101,6 +101,6 @@ This project is licensed under the [MIT License](LICENSE). allowing you to freel
 **Hello!** I’m **Aramiru Nyakuni Rebecca**, a professional accountant transitioning into the field of data analysis. I am dedicated to honing my skills and expertise in data analytics while leveraging data-driven insights and predictive analysis to help organizations achieve their long-term objectives.
 Let’s stay connected! You can reach out and connect with me on the following platforms:
 
-[![Email](nyanetah@gmail.com)
+[[✉️Email](nyanetah@gmail.com)
 [![LinkedIn](https://www.linkedin.com/in/rebecca-aramiru-3a699a12b/)
 [![Website](https://rebekaharamiru.my.canva.site/)

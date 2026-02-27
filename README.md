@@ -26,7 +26,7 @@ This project involves:
 
 ## 🛠️ Important Links & Tools:
 
-- **[dataset folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/dataset).** Sample dataset freely downloaded from maven analytics (csv files).
+- **[datasets](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/dataset).** Sample dataset freely downloaded from maven analytics (csv files).
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting the SQL database.
 - **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
 - **[Git Repository](https://github.com/):**  GitHub account and repository for managing and collaborating  the code efficiently.

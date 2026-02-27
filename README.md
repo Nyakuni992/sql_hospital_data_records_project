@@ -63,7 +63,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights equip stakeholders with essential business metrics, facilitating informed and strategic decision-making.
 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
+For more details, refer to [docs/requirements.md](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc).
 
 ## 📂 Repository Structure
 ```

@@ -56,7 +56,7 @@ Design and implement a modern data warehouse using SQL Server to consolidate hos
 
 ### Objective:
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
-- **Encounters Overview**: Volume trends, readmissions, and utilization metrics.
+- **Encounters Overview**: Volume trends, re-admissions, and utilization metrics.
 - **Cost & Coverage Insights**: Treatment costs, payer coverage distribution, and financial responsibility analysis.
 - **Patient Behavioral Analysis**: Visit patterns, Demographic distribution (age, gender, location), and service utilization behavior.
 - **Financial Performance**: Revenue performance, contribution analysis, and key financial indicators.

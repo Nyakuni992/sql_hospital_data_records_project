@@ -61,6 +61,7 @@ Total_claim_cost DECIMAL(10,2),
 Payer_coverage DECIMAL(10,2),
 Reason_code NVARCHAR(50),
 Reason_description NVARCHAR(500),
+Encounter_after_death_flag INT,
 hdb_create_date DATETIME2 DEFAULT GETDATE()
 
 );

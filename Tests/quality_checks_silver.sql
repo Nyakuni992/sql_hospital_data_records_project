@@ -18,14 +18,6 @@ Usage Notes:
 */
 
 -- ====================================================================
--- Checking 'silver.crm_cust_info'
--- ====================================================================
--- Check for NULLs or Duplicates in Primary Key
--- Expectation: No Results
--- Check for nulls and or duplicates in the primary key
--- Expectation is Non
-
--- ====================================================================
 -- Checking 'Encounters'
 -- ====================================================================
 -- Check for nulls and or duplicates in the primary key
@@ -53,6 +45,13 @@ SELECT
 *
 FROM bronze.encounters
 WHERE Start > GETDATE()
+-- Check for encounters after death
+SELECT 
+    * 
+FROM silver.encounters e
+LEFT JOIN silver.patients p
+ON e.Patient = p.Id
+WHERE p.Death_date < e.Start
 -- Checking for Nulls in foreign keys
 -- Expectation is Non
 SELECT 

@@ -79,9 +79,10 @@ CREATE VIEW gold.dim_organizations AS
     City,
     State,
     Zip                              AS Zip_code,
-    Lon                              AS Latitude,
+    Lat                              AS Latitude,
     Lon                              AS Longitude
 FROM silver.organizations;
+GO
 -- =============================================================================
 -- Create Fact : gold.fact_encounters
 -- =============================================================================
@@ -95,8 +96,8 @@ CREATE VIEW gold.fact_encounters AS
   p.Patient_key,
   o.Organization_key,
   py.Payer_key,
-  e.Start                          AS Start_time,
-  e.Stop                           AS End_time,
+  e.Start                          AS Encounter_tart_time,
+  e.Stop                           AS Encounter_end_time,
   e.Encounter_class,
   e.Code                           AS Encounter_code,
   e.Description                    AS Encounter_code_description,
@@ -127,13 +128,14 @@ CREATE VIEW gold.fact_procedures AS
     SELECT
     pr.Encounter                    AS Encounter_id,
     p.Patient_key,
-    pr.Start                        AS Start_time,
-    pr.Stop                         AS End_time,
+    pr.Start                        AS Procedure_start_time,
+    pr.Stop                         AS Procedure_end_time,
     pr.Code                         AS Procedure_code,
     pr.Description                  AS Procedure_code_description,
     pr.Reason_code                  AS Procedure_reason_code,
     pr.Reason_description           AS Reason_code_description,
-    pr.Base_cost
+    pr.Base_cost                    AS Procedure_base_cost
     FROM silver.procedures pr
 LEFT JOIN gold.dim_patients p
 ON p.Patient_id = pr.Patient 
+GO

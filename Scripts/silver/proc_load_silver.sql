@@ -221,7 +221,7 @@ BEGIN
 		)
 		SELECT
 			Id,
-			CASE WHEN UPPER(TRIM(Name)) IN ('NO_INSURANCE') THEN 'Self Pay' ELSE Name
+			CASE WHEN UPPER(TRIM(Name)) IN ('NO_INSURANCE') THEN 'No_insurance' ELSE Name
 			END Name,-- Set patient with no insuarance to self pay
 			Address,
 			City,

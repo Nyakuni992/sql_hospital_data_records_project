@@ -49,7 +49,7 @@ ORDER BY Encounter_year ASC
 WITH Duration_category AS (
 SELECT 
     Encounter_id,
-    CASE WHEN DATEDIFF(Hour, Start_time, End_time) >= 24 THEN 'Over 24 Hours'
+    CASE WHEN DATEDIFF(Hour, Encounter_start_time, Encounter_end_time) >= 24 THEN 'Over 24 Hours'
          ELSE 'Under 24 Hours'
 	     END                                                       AS Encounter_duration
 FROM gold.fact_encounters   

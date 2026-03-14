@@ -83,6 +83,12 @@ Hopital-data-warehouse-project/
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │
+├── reports/                            # Final analytical reports & KPI queries
+│   ├── patient_report.sql
+│   ├── encounter_report.sql
+│   ├── procedure_report.sql
+│   └── payer_report.sql
+│  
 ├── tests/                              # Data validation & integrity checks
 │
 ├── README.md                           # Project overview and instructions

@@ -81,8 +81,7 @@ The reporting layer transforms curated warehouse data into actionable insights t
 
 ### Dashboard Preview
 
-
-![Encounters Operational Dashboard](C:\dashboards/Encounter-Operational-Dashboard.png)
+![Encounters Operational Dashboard]([C:\dashboards/Encounter-Operational-Dashboard.png](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Encounters%20Operational%20Dashboard.png))
 
 ### Key Business Value
 Provides operational visibility into hospital encounter activity, helping stakeholders identify utilization patterns, monitor readmission trends, and improve resource planning.

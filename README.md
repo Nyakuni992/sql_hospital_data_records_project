@@ -24,6 +24,10 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Contains business-ready, curated data structured into a star schema to support reporting, analytics, and KPI-driven insights.
 
+⭐ Data Model (Star Schema)
+
+![Star Schema](docs/star_schema.png)
+
 ---
 ## ⚙️ Tech Stack
 
@@ -60,6 +64,7 @@ Design and implement a modern data warehouse using SQL Server to consolidate hos
 - **Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
 -  **Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
 - **Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
+
 ---
 
 ## 📊BI: Analytics & Reporting (Data Analysis)
@@ -67,6 +72,7 @@ Design and implement a modern data warehouse using SQL Server to consolidate hos
 ### Objective:
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
 The reporting layer transforms curated warehouse data into actionable insights through interactive dashboards and KPI-focused analytics.
+
 ---
 
 ## 🏥 Encounters Operational Dashboard
@@ -85,7 +91,8 @@ The reporting layer transforms curated warehouse data into actionable insights t
 Provides operational visibility into hospital encounter activity, helping stakeholders identify utilization patterns, monitor readmission trends, and improve resource planning.
 
 ### 🔗 Tableau Public Dashboard
-[Tableau Public Link for Encounters Operational Dashboard] https://public.tableau.com/views/Hospitalkpi/EncountersOperationalDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link] 
+[Tableau Public Link for Encounters Operational Dashboard](https://public.tableau.com/views/Hospitalkpi/EncountersOperationalDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ---
 
 ## 👤 Patient Monitoring Dashboard
@@ -103,10 +110,11 @@ Provides operational visibility into hospital encounter activity, helping stakeh
 Supports patient-centered analytics by identifying behavioral trends, demographic patterns, and healthcare utilization characteristics that can improve care planning and engagement strategies.
 
 ### 🔗 Tableau Public Dashboard
-[Tableau Public Link for Patient Monitoring Dashboard]https://public.tableau.com/views/Hospitalkpi/PatientMonitoringDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Tableau Public Link for Patient Monitoring Dashboard](https://public.tableau.com/views/Hospitalkpi/PatientMonitoringDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ---
 
-## 💳 Payer Performance Dashboard
+## 📈 Payer Performance Dashboard
 
 ### Focus Areas
 - Payer coverage analysis
@@ -123,7 +131,7 @@ Supports patient-centered analytics by identifying behavioral trends, demographi
 Provides financial visibility into payer performance, reimbursement trends, and healthcare cost distribution to support strategic financial planning.
 
 ### 🔗 Tableau Public Dashboard
-[Tableau Public Link for Payer Performance Dashboard](https://public.tableau.com/views/Hospitalkpi/PayerPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
+[Tableau Public Link for Payer Performance Dashboard](https://public.tableau.com/views/Hospitalkpi/PayerPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -138,7 +146,14 @@ The dashboards provide stakeholders with measurable KPIs that support:
 - Data-driven decision-making
 
 For additional project documentation, refer to the [docs](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc) folder.
-For more details, refer to [docs](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc).
+
+## 🔍 Key Insights
+
+- High-risk patients contributed to the highest number of readmissions
+- Q1 and Q4 recorded the highest total treatment costs.
+- Encounter volume growth was primarily driven by repeat patient visits.
+- Certain payer categories showed significantly higher uncovered costs.
+- Longer Length of Stay (LOS) was associated with increased readmission probability.
 
 ## 📂 Repository Structure
 ```

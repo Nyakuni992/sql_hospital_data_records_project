@@ -106,7 +106,7 @@ Provides operational visibility into hospital encounter activity, helping stakeh
 Supports patient-centered analytics by identifying behavioral trends, demographic patterns, and healthcare utilization characteristics that can improve care planning and engagement strategies.
 
 ### 🔗 Tableau Public Dashboard
-
+[Tableau Public Link for Patient Monitoring Dashboard]
 ---
 
 ## 💳 Payer Performance Dashboard
@@ -120,14 +120,13 @@ Supports patient-centered analytics by identifying behavioral trends, demographi
 
 ### Dashboard Preview
 
-
 ![Payer Performance Dashboard](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Payer%20Performance%20Dashboard.png)
 
 ### Key Business Value
 Provides financial visibility into payer performance, reimbursement trends, and healthcare cost distribution to support strategic financial planning.
 
 ### 🔗 Tableau Public Dashboard
-[Insert Tableau Public Link for Payer Performance Dashboard Here]
+[Tableau Public Link for Payer Performance Dashboard](https://public.tableau.com/views/Hospitalkpi/PayerPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
 
 ---
 

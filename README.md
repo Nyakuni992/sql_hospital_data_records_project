@@ -94,17 +94,13 @@ Provides operational visibility into hospital encounter activity, helping stakeh
 ## 👤 Patient Monitoring Dashboard
 
 ### Focus Areas
-- Patient demographic analysis
-- Age and gender distribution
-- Geographic patient distribution
 - Patient visit behavior
 - Readmission monitoring
 - Service utilization patterns
 
 ### Dashboard Preview
 
-
-![Patient Monitoring Dashboard](C:\dashboards/Patient-Monitoring-Dashboard.png)
+![Patient Monitoring Dashboard]([C:\dashboards/Patient-Monitoring-Dashboard.png](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Patient%20Monitoring%20Dashboard.png))
 
 ### Key Business Value
 Supports patient-centered analytics by identifying behavioral trends, demographic patterns, and healthcare utilization characteristics that can improve care planning and engagement strategies.

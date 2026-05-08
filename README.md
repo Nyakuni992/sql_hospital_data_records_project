@@ -100,13 +100,12 @@ Provides operational visibility into hospital encounter activity, helping stakeh
 
 ### Dashboard Preview
 
-![Patient Monitoring Dashboard]([C:\dashboards/Patient-Monitoring-Dashboard.png](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Patient%20Monitoring%20Dashboard.png))
+![Patient Monitoring Dashboard](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Patient%20Monitoring%20Dashboard.png)
 
 ### Key Business Value
 Supports patient-centered analytics by identifying behavioral trends, demographic patterns, and healthcare utilization characteristics that can improve care planning and engagement strategies.
 
 ### 🔗 Tableau Public Dashboard
-[Insert Tableau Public Link for Patient Monitoring Dashboard Here]
 
 ---
 
@@ -122,7 +121,7 @@ Supports patient-centered analytics by identifying behavioral trends, demographi
 ### Dashboard Preview
 
 
-![Payer Performance Dashboard](C:\dashboards/Payer-Performance-Dashboard.png)
+![Payer Performance Dashboard](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Payer%20Performance%20Dashboard.png)
 
 ### Key Business Value
 Provides financial visibility into payer performance, reimbursement trends, and healthcare cost distribution to support strategic financial planning.

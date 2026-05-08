@@ -62,13 +62,11 @@ Design and implement a modern data warehouse using SQL Server to consolidate hos
 - **Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
 ---
 
-
 ## 📊BI: Analytics & Reporting (Data Analysis)
 
 ### Objective:
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
 The reporting layer transforms curated warehouse data into actionable insights through interactive dashboards and KPI-focused analytics.
-
 ---
 
 ## 🏥 Encounters Operational Dashboard
@@ -87,8 +85,7 @@ The reporting layer transforms curated warehouse data into actionable insights t
 Provides operational visibility into hospital encounter activity, helping stakeholders identify utilization patterns, monitor readmission trends, and improve resource planning.
 
 ### 🔗 Tableau Public Dashboard
-[Insert Tableau Public Link for Encounters Dashboard Here]
-
+[Tableau Public Link for Encounters Operational Dashboard] https://public.tableau.com/views/Hospitalkpi/EncountersOperationalDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link] 
 ---
 
 ## 👤 Patient Monitoring Dashboard
@@ -106,7 +103,7 @@ Provides operational visibility into hospital encounter activity, helping stakeh
 Supports patient-centered analytics by identifying behavioral trends, demographic patterns, and healthcare utilization characteristics that can improve care planning and engagement strategies.
 
 ### 🔗 Tableau Public Dashboard
-[Tableau Public Link for Patient Monitoring Dashboard]
+[Tableau Public Link for Patient Monitoring Dashboard]https://public.tableau.com/views/Hospitalkpi/PatientMonitoringDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ---
 
 ## 💳 Payer Performance Dashboard

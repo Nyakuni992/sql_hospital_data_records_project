@@ -1,7 +1,12 @@
-# Hospital Data Warehouse & Analytics Project
+# 🏥 Hospital Data Warehouse & Analytics Project
 
 ## ☄️ Welcome to the Hospital Data Warehouse & Analytics Project repository.
-This project presents a comprehensive end-to-end data warehousing and analytics solution — from designing and developing the data warehouse to delivering meaningful, actionable insights. Developed as a portfolio project, it demonstrates industry best practices in data engineering, data modeling, and analytics.
+This project presents a comprehensive end-to-end data warehousing and analytics solution built using SQL Server, ETL pipelines, dimensional modeling, and BI reporting.
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red)
+![ETL](https://img.shields.io/badge/ETL-Pipeline-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 ## 🏙️Data Architecture

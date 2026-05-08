@@ -26,7 +26,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ⭐ Data Model (Star Schema)
 
-![Star Schema]([docs/star_schema.png](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Model.png)
+![Star Schema](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Model.png)
 
 ---
 ## ⚙️ Tech Stack

@@ -3,10 +3,16 @@
 ## ☄️ Welcome to the Hospital Data Warehouse & Analytics Project repository.
 This project presents a comprehensive end-to-end data warehousing and analytics solution built using SQL Server, ETL pipelines, dimensional modeling, and BI reporting.
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red)
-![ETL](https://img.shields.io/badge/ETL-Pipeline-blue)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+---
+## 🎯 Business Problem
+Hospitals generate large volumes of operational and clinical data, but raw datasets alone do not support strategic decision-making.
+
+This project centralizes hospital encounter data into a modern analytical warehouse to enable:
+- Monitoring patient readmissions
+- Tracking financial performance
+- Evaluating payer coverage
+- Understanding patient utilization behavior
+- Supporting KPI-driven healthcare analytics
 
 ---
 ## 🏙️Data Architecture
@@ -19,6 +25,18 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Contains business-ready, curated data structured into a star schema to support reporting, analytics, and KPI-driven insights.
 
 ---
+## ⚙️ Tech Stack
+
+| Category | Tools |
+|---|---|
+| Database | SQL Server Express |
+| Query Tool | SSMS |
+| Data Modeling | Draw.io |
+| Version Control | Git & GitHub |
+| Documentation | Notion |
+| Visualization | Tableau Public |
+| Data Format | CSV |
+
 ## 📖 Project Overview
 
 This project involves:
@@ -27,18 +45,6 @@ This project involves:
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Developing SQL-driven reports and dashboards that transform data into clear, actionable insights.
----
-
-## 🛠️ Important Links & Tools:
-
-Everything is for Free!
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
-- **[Notion Project Steps](https://www.notion.so/Hospital-Records-Project-2cb3700e152f806d9b0ad71b35d548ac):** Access to All Project Phases and Tasks.
 
 ---
 
@@ -61,12 +67,87 @@ Design and implement a modern data warehouse using SQL Server to consolidate hos
 
 ### Objective:
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
-- **Encounters Overview**: Volume trends, re-admissions, and utilization metrics.
-- **Cost & Coverage Insights**: Treatment costs, payer coverage distribution, and financial responsibility analysis.
-- **Patient Behavioral Analysis**: Visit patterns, Demographic distribution (age, gender, location), and service utilization behavior.
-- **Financial Performance**: Revenue performance, contribution analysis, and key financial indicators.
+The reporting layer transforms curated warehouse data into actionable insights through interactive dashboards and KPI-focused analytics.
 
-These KPIs provide stakeholders with measurable performance indicators that support strategic planning, operational improvements, and financial decision-making.
+---
+
+## 🏥 Encounters Operational Dashboard
+
+### Focus Areas
+- Encounter volume trends
+- Readmission analysis
+- Operational utilization metrics
+- Encounter distribution analysis
+
+### Dashboard Preview
+
+
+![Encounters Operational Dashboard](C:\dashboards/Encounter-Operational-Dashboard.png)
+
+### Key Business Value
+Provides operational visibility into hospital encounter activity, helping stakeholders identify utilization patterns, monitor readmission trends, and improve resource planning.
+
+### 🔗 Tableau Public Dashboard
+[Insert Tableau Public Link for Encounters Dashboard Here]
+
+---
+
+## 👤 Patient Monitoring Dashboard
+
+### Focus Areas
+- Patient demographic analysis
+- Age and gender distribution
+- Geographic patient distribution
+- Patient visit behavior
+- Readmission monitoring
+- Service utilization patterns
+
+### Dashboard Preview
+
+
+![Patient Monitoring Dashboard](C:\dashboards/Patient-Monitoring-Dashboard.png)
+
+### Key Business Value
+Supports patient-centered analytics by identifying behavioral trends, demographic patterns, and healthcare utilization characteristics that can improve care planning and engagement strategies.
+
+### 🔗 Tableau Public Dashboard
+[Insert Tableau Public Link for Patient Monitoring Dashboard Here]
+
+---
+
+## 💳 Payer Performance Dashboard
+
+### Focus Areas
+- Payer coverage analysis
+- Treatment cost distribution
+- Financial responsibility tracking
+- Revenue contribution analysis
+- Cost and reimbursement monitoring
+
+### Dashboard Preview
+
+
+![Payer Performance Dashboard](C:\dashboards/Payer-Performance-Dashboard.png)
+
+### Key Business Value
+Provides financial visibility into payer performance, reimbursement trends, and healthcare cost distribution to support strategic financial planning.
+
+### 🔗 Tableau Public Dashboard
+[Insert Tableau Public Link for Payer Performance Dashboard Here]
+
+---
+
+## 📈 Overall Analytical Impact
+
+The dashboards provide stakeholders with measurable KPIs that support:
+
+- Strategic healthcare planning
+- Operational performance monitoring
+- Financial performance analysis
+- Patient utilization insights
+- Data-driven decision-making
+
+For additional project documentation, refer to the [docs](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc) folder.
 For more details, refer to [docs](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/doc).
 
 ## 📂 Repository Structure

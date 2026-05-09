@@ -25,9 +25,34 @@ This project involves:
 4. **Analytics & Reporting**: Developing SQL-driven reports and dashboards that transform data into clear, actionable insights.
 
 ---
-## 🚀Project Requirements
-### Building the Data Warehouse (Data Engineering)
+## 🛠 Skills Demonstrated
 
+### 🏗Data Architecture & Engineering
+- Medallion Architecture Design: Implemented a multi-layered data lakehouse approach (Bronze, Silver, Gold) to ensure a clean separation between raw ingestion, cleaned data, and business-ready analytical entities.
+
+- Galaxy (Fact Constellation) Schema Modeling: Architected a multi-fact dimensional model to handle differing granularities (Encounters vs. Procedures), preventing data fan-out and ensuring 100% aggregation accuracy.
+
+- ETL/ELT Pipeline Development: Engineered robust SQL-based transformation scripts to handle data cleansing, standardization, and complex business logic (e.g., excluding post-death encounters).
+
+### 🔍Healthcare Data Analytics
+- Clinical Logic Implementation: Applied healthcare-specific constraints, such as identifying and monitoring Patient Readmission rates and Length of Stay (LOS) metrics.
+
+- Financial Performance Analysis: Built logic to calculate payer coverage gaps and total claim costs, providing insights into revenue leakage and payer efficiency.
+
+
+### 📊BI & Data Storytelling
+- Interactive Dashboard Design: Developed three distinct Tableau dashboards (Operational, Patient, and Payer) tailored to different stakeholder personas (Operations, Clinical, and Finance).
+
+- Actionable KPI Development: Translated raw transactional data into high-level business metrics like Encounter Volume Growth, Readmission Probability, and Cost Distribution.
+
+### 🖥Technical Proficiency
+- Advanced SQL: Expert use of Common Table Expressions (CTEs), window functions for trend analysis, and complex joins across normalized schemas.
+
+- Documentation & Governance: Maintained a strict Data Catalog and naming conventions to ensure the warehouse is scalable and easy for other analysts to navigate.
+
+---
+## 🚀Scope & Technical Specifications
+### Building the Data Warehouse (Data Engineering)
 #### Objective:
 Design and implement a modern data warehouse using SQL Server to consolidate hospital encounter data, enabling analytical reporting and data-driven decision-making.
 

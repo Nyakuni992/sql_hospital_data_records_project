@@ -100,8 +100,6 @@ Provides operational visibility into hospital encounter activity, helping stakeh
 #### 🔗 Tableau Public Dashboard
 [Tableau Public Link for Encounters Operational Dashboard](https://public.tableau.com/views/Hospitalkpi/EncountersOperationalDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
----
-
 ### 👤 Patient Monitoring Dashboard
 
 #### Focus Areas
@@ -118,8 +116,6 @@ Supports patient-centered analytics by identifying behavioral trends, demographi
 
 #### 🔗 Tableau Public Dashboard
 [Tableau Public Link for Patient Monitoring Dashboard](https://public.tableau.com/views/Hospitalkpi/PatientMonitoringDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
----
 
 ### 📈 Payer Performance Dashboard
 

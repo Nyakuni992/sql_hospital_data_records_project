@@ -197,10 +197,8 @@ Bash
 [git clone](https://github.com/Nyakuni992/sql_hospital_data_records_project.git)
 #### 2. Initialize the Database:
 Open SSMS and connect to your local instance.
-Run the script scripts/bronze/init_database.sql to create the database structure.
-
-Ingest Raw Data:
-
+Run the script scripts/bronze[/init_database.sql ](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/Scripts/bronze/ddl_bronze.sql)to create the database structure.
+### 3. Ingest Raw Data:
 Place the CSV files from the datasets/ folder into your SQL Server's authorized import directory.
 
 Execute the scripts/bronze/load_bronze.sql scripts.

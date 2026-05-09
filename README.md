@@ -205,7 +205,7 @@ Place the CSV files from the [datasets/ folder](https://github.com/Nyakuni992/sq
 Execute scripts in the [silver/ folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/Scripts/silver), followed by the [gold/ folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/Scripts/gold) to build the Galaxy Schema.
 
 ### 5.View Analytics:
-Tableau Access: Open the .twbx (Packaged Workbook) located in the /reports/ folder.
+Tableau Access: Open the .twbx (Packaged Workbook) located in the [reports/ folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/Reports/Tableau_dashboards).
 
 #### 📝Technical Notes
 - Tableau Connection: Data was transformed and curated in SQL Server; Gold-layer tables were exported to CSV for visualization in Tableau Public due to the software's connection limitations for local SQL instances.

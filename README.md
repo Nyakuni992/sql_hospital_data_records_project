@@ -54,7 +54,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 ![Galaxy Schema](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Model.png)
 
 A galaxy schema was implemented to support scalable healthcare analytics across encounters, procedures, patients, organizations and payers. The model improves query efficiency, reduces redundancy, and enables cross-functional reporting in Tableau.
-[View Full Data Model Documentation →]
+[View Full Data Model Documentation →](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Catalog.sql)
 
 #### Design Choice: Fact Constellation Schema (Galaxy Schema)
 I opted for a Galaxy Schema over a single Fact table because fact_procedures and fact_encounters exist at different levels of granularity.

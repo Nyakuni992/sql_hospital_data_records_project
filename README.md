@@ -51,7 +51,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 ---
 ## ⭐Data Model (Galaxy Schema)
 
-![Galaxy Schema](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Model.png)
+![Galaxy Schema](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Model(Galaxy%20Schema)%20png.png)
 
 A galaxy schema was implemented to support scalable healthcare analytics across encounters, procedures, patients, organizations and payers. The model improves query efficiency, reduces redundancy, and enables cross-functional reporting in Tableau.
 [View Full Data Model Documentation →](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Catalog.sql)

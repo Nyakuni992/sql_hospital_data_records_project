@@ -230,11 +230,11 @@ Hopital-data-warehouse-project/
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │
-├── reports/                            # Final analytical reports & KPI queries
-│   ├── patient_report.sql
-│   ├── encounter_report.sql
-│   ├── procedure_report.sql
-│   └── payer_report.sql
+├── reports/                            # THE ANALYTICAL OUTPUT               
+│   ├── exported_gold_data              # The CSVs used for Tableau (since SQL connection is limited)
+│   ├── kpi_queries.sql                 # Final analytical reports & KPI queries
+│   └── tableau dashboards.twbx         # The Packaged Tableau Workbook
+│  
 │  
 ├── tests/                              # Data validation & integrity checks
 │

@@ -82,64 +82,62 @@ Keeping them separate prevents data inflation and ensures accurate aggregation o
 Design and implement SQL-driven analytical reporting to measure and monitor key healthcare performance indicators (KPIs), supporting operational efficiency, financial performance, and patient care insights.
 The reporting layer transforms curated warehouse data into actionable insights through interactive dashboards and KPI-focused analytics.
 
----
+### 🏥 Encounters Operational Dashboard
 
-## 🏥 Encounters Operational Dashboard
-
-### Focus Areas
+#### Focus Areas
 - Encounter volume trends
 - Readmission analysis
 - Operational utilization metrics
 - Encounter distribution analysis
 
-### Dashboard Preview
+#### Dashboard Preview
 
 ![Encounters Operational Dashboard](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Encounters%20Operational%20Dashboard.png)
 
-### Key Business Value
+#### Key Business Value
 Provides operational visibility into hospital encounter activity, helping stakeholders identify utilization patterns, monitor readmission trends, and improve resource planning.
 
-### 🔗 Tableau Public Dashboard
+#### 🔗 Tableau Public Dashboard
 [Tableau Public Link for Encounters Operational Dashboard](https://public.tableau.com/views/Hospitalkpi/EncountersOperationalDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-## 👤 Patient Monitoring Dashboard
+### 👤 Patient Monitoring Dashboard
 
-### Focus Areas
+#### Focus Areas
 - Patient visit behavior
 - Readmission monitoring
 - Service utilization patterns
 
-### Dashboard Preview
+#### Dashboard Preview
 
 ![Patient Monitoring Dashboard](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Patient%20Monitoring%20Dashboard.png)
 
-### Key Business Value
+#### Key Business Value
 Supports patient-centered analytics by identifying behavioral trends, demographic patterns, and healthcare utilization characteristics that can improve care planning and engagement strategies.
 
-### 🔗 Tableau Public Dashboard
+#### 🔗 Tableau Public Dashboard
 [Tableau Public Link for Patient Monitoring Dashboard](https://public.tableau.com/views/Hospitalkpi/PatientMonitoringDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-## 📈 Payer Performance Dashboard
+### 📈 Payer Performance Dashboard
 
-### Focus Areas
+#### Focus Areas
 - Payer coverage analysis
 - Treatment cost distribution
 - Financial responsibility tracking
 - Revenue contribution analysis
 - Cost and reimbursement monitoring
 
-### Dashboard Preview
+#### Dashboard Preview
 
 ![Payer Performance Dashboard](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Payer%20Performance%20Dashboard.png)
 
-### Key Business Value
+#### Key Business Value
 Provides financial visibility into payer performance, reimbursement trends, and healthcare cost distribution to support strategic financial planning.
 
-### 🔗 Tableau Public Dashboard
+#### 🔗 Tableau Public Dashboard
 [Tableau Public Link for Payer Performance Dashboard](https://public.tableau.com/views/Hospitalkpi/PayerPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---

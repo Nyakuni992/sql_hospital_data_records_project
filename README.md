@@ -202,11 +202,13 @@ Run the script scripts/bronze[/init_database.sql ](https://github.com/Nyakuni992
 Place the CSV files from the [datasets/ folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/datasets) into your SQL Server's authorized import directory.
 ### 4.Execute the [scripts/bronze/load_bronze.sql](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/Scripts/bronze/proc_load_bronze.sql) scripts.
 ### 5.Run Transformations:
-Execute scripts in the [silver/ folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/Scripts/silver), followed by the gold/ folder to build the Galaxy Schema.
+Execute scripts in the [silver/ folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/Scripts/silver), followed by the [gold/ folder](https://github.com/Nyakuni992/sql_hospital_data_records_project/tree/main/Scripts/gold) to build the Galaxy Schema.
 
-View Analytics:
-
+### 5.View Analytics:
 Open the Tableau workbook in the reports/ folder and point the data source to your local SQL Server.
+#### 📝Technical Notes
+- Tableau Connection: Data was transformed and curated in SQL Server; Gold-layer tables were exported to CSV for visualization in Tableau Public due to the software's connection limitations for local SQL instances.
+- Data Integrity: The exported CSVs represent the final, cleaned "Gold" layer, ensuring the dashboards reflect the logic applied within the SQL Server environment.
 
 ## 📂 Repository Structure
 ```

@@ -185,6 +185,37 @@ For additional project documentation, refer to the [docs](https://github.com/Nya
 
 ---
 
+## 🚀Getting Started
+### Prerequisites
+[Database Engine: SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/install/install)
+[Tableau Desktop/Public](https://www.tableau.com/products/public?utm_source=chatgpt.com) 
+
+### Installation & Setup
+Clone the Repository:
+
+Bash
+git clone https://github.com/YourUsername/hospital-data-warehouse.git
+Initialize the Database:
+
+Open SSMS and connect to your local instance.
+
+Run the script scripts/bronze/init_database.sql to create the database structure.
+
+Ingest Raw Data:
+
+Place the CSV files from the datasets/ folder into your SQL Server's authorized import directory.
+
+Execute the scripts/bronze/load_bronze.sql scripts.
+
+Run Transformations:
+
+Execute scripts in the silver/ folder, followed by the gold/ folder to build the Galaxy Schema.
+
+View Analytics:
+
+Open the Tableau workbook in the reports/ folder and point the data source to your local SQL Server.
+
 ## 📂 Repository Structure
 ```
 Hopital-data-warehouse-project/

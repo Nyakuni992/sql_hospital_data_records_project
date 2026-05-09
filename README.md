@@ -192,14 +192,11 @@ For additional project documentation, refer to the [docs](https://github.com/Nya
 [Tableau Desktop/Public](https://www.tableau.com/products/public?utm_source=chatgpt.com) 
 
 ### Installation & Setup
-Clone the Repository:
-
+#### 1. Clone the Repository
 Bash
-git clone https://github.com/YourUsername/hospital-data-warehouse.git
-Initialize the Database:
-
+[git clone](https://github.com/Nyakuni992/sql_hospital_data_records_project.git)
+#### 2. Initialize the Database:
 Open SSMS and connect to your local instance.
-
 Run the script scripts/bronze/init_database.sql to create the database structure.
 
 Ingest Raw Data:

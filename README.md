@@ -158,6 +158,8 @@ For additional project documentation, refer to the [docs](https://github.com/Nya
 - Certain payer categories showed significantly higher uncovered costs.
 - Longer Length of Stay (LOS) was associated with increased readmission probability.
 
+---
+
 ## 📂 Repository Structure
 ```
 Hopital-data-warehouse-project/

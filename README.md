@@ -1,10 +1,10 @@
 # 🏥 Hospital Data Warehouse & Analytics Project
 
-## ☄️ Welcome to the Hospital Data Warehouse & Analytics Project repository.
+## ☄️Welcome to the Hospital Data Warehouse & Analytics Project repository.
 This project presents a comprehensive end-to-end data warehousing and analytics solution built using SQL Server, ETL pipelines, dimensional modeling, and BI reporting.
 
 ---
-## 🎯 Business Problem
+## 🎯Business Problem
 Hospitals generate large volumes of operational and clinical data, but raw datasets alone do not support strategic decision-making.
 
 This project centralizes hospital encounter data into a modern analytical warehouse to enable:
@@ -15,6 +15,30 @@ This project centralizes hospital encounter data into a modern analytical wareho
 - Supporting KPI-driven healthcare analytics
 
 ---
+## 📖Project Overview
+
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Developing SQL-driven reports and dashboards that transform data into clear, actionable insights.
+
+---
+## 🚀Project Requirements
+### Building the Data Warehouse (Data Engineering)
+
+#### Objective:
+Design and implement a modern data warehouse using SQL Server to consolidate hospital encounter data, enabling analytical reporting and data-driven decision-making.
+
+#### Specifications:
+- **Data Sources**: Ingest structured data provided as CSV files into a staging layer.                  
+- **Data Quality**: Perform data cleansing, validation, and transformation to resolve inconsistencies and ensure integrity.
+- **Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
+-  **Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
+- **Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
+
+---
 ## 🏙️Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
@@ -22,11 +46,21 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Contains business-ready, curated data structured into a star schema to support reporting, analytics, and KPI-driven insights.
+3. **Gold Layer**: Contains business-ready, curated data structured into a galaxy schema to support reporting, analytics, and KPI-driven insights.
 
-⭐ Data Model (Star Schema)
+---
+## ⭐Data Model (Galaxy Schema)
 
-![Star Schema](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Model.png)
+![Galaxy Schema](https://github.com/Nyakuni992/sql_hospital_data_records_project/blob/main/doc/Data%20Model.png)
+
+A galaxy schema was implemented to support scalable healthcare analytics across encounters, procedures, patients, organizations and payers. The model improves query efficiency, reduces redundancy, and enables cross-functional reporting in Tableau.
+[View Full Data Model Documentation →]
+
+#### Design Choice: Fact Constellation Schema (Galaxy Schema)
+I opted for a Galaxy Schema over a single Fact table because fact_procedures and fact_encounters exist at different levels of granularity.
+- Encounters: Track the overarching visit and billing timeline.
+- Procedures: Track specific medical actions within those visits.
+Keeping them separate prevents data inflation and ensures accurate aggregation of base_cost, procedure cost, payer coverage and total_claim_cost.
 
 ---
 ## ⚙️ Tech Stack
@@ -41,32 +75,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 | Visualization | Tableau Public |
 | Data Format | CSV |
 
-## 📖 Project Overview
-
-This project involves:
-
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Developing SQL-driven reports and dashboards that transform data into clear, actionable insights.
-
 ---
-
-## 🚀 Project Requirements
-### Building the Data Warehouse (Data Engineering)
-
-#### Objective:
-Design and implement a modern data warehouse using SQL Server to consolidate hospital encounter data, enabling analytical reporting and data-driven decision-making.
-
-#### Specifications:
-- **Data Sources**: Ingest structured data provided as CSV files into a staging layer.                  
-- **Data Quality**: Perform data cleansing, validation, and transformation to resolve inconsistencies and ensure integrity.
-- **Data Integration**: Integrate source data into a unified dimensional data model (fact and dimension tables) optimized for analytical queries.
--  **Scope**: Exclude encounters occurring after a recorded patient death date to maintain logical and clinical consistency across KPIs.
-- **Documentation**: Provide comprehensive data model documentation to support business stakeholders and analytics teams.
-
----
-
 ## 📊BI: Analytics & Reporting (Data Analysis)
 
 ### Objective:

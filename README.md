@@ -104,7 +104,7 @@ Keeping them separate prevents data inflation and ensures accurate aggregation o
 ## 📈Project Management & Roadmap
 This project was managed using a structured SDLC (Software Development Life Cycle) approach. You can view the full project roadmap, task breakdown, and progress tracking on my public Notion page:
 
-[🔗 View My Project Roadmap on Notion](https://www.notion.so/Hospital-Records-Project-2cb3700e152f806d9b0ad71b35d548ac)
+[🔗 View My Project Roadmap on Notion](https://pleasant-coast-def.notion.site/Hospital-Records-Project-2cb3700e152f806d9b0ad71b35d548ac)
 
 ### Key Milestones Tracked:
 - Requirement Analysis & Design: Initial scoping and architecture planning.

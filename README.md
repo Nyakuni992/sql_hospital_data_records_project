@@ -101,6 +101,19 @@ Keeping them separate prevents data inflation and ensures accurate aggregation o
 | Data Format | CSV |
 
 ---
+## 📈Project Management & Roadmap
+This project was managed using a structured SDLC (Software Development Life Cycle) approach. You can view the full project roadmap, task breakdown, and progress tracking on my public Notion page:
+
+[🔗 View My Project Roadmap on Notion](https://www.notion.so/Hospital-Records-Project-2cb3700e152f806d9b0ad71b35d548ac)
+
+### Key Milestones Tracked:
+- Requirement Analysis & Design: Initial scoping and architecture planning.
+- Medallion Pipeline Development: Granular task tracking for Bronze, Silver, and Gold layer implementations.
+- Quality Assurance: Dedicated tasks for schema validation and data integrity checks.
+- Quality Assurance: Dedicated tasks for schema validation and data integrity checks.
+- Documentation & Version Control: Integrated milestones for Draw.io diagrams and Git commits
+
+---
 ## 📊BI: Analytics & Reporting (Data Analysis)
 
 ### Objective:
